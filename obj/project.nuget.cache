@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "I1wpG4ZeJW8=",
+  "dgSpecHash": "ZnXcQhZpSsI=",
   "success": true,
   "projectFilePath": "C:\\Users\\karam\\Desktop\\FTS\\FTSWeatherMonitoringAndReporting\\FTSWeatherMonitoringAndReporting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.8\\microsoft.extensions.configuration.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.8\\microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.8\\microsoft.extensions.configuration.fileextensions.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.8\\microsoft.extensions.configuration.json.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.8\\microsoft.extensions.fileproviders.abstractions.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.8\\microsoft.extensions.fileproviders.physical.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.8\\microsoft.extensions.filesystemglobbing.9.0.8.nupkg.sha512",
+    "C:\\Users\\karam\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.8\\microsoft.extensions.primitives.9.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
