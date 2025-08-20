@@ -1,13 +1,13 @@
 ﻿using System.Xml.Serialization;
 
-namespace FTSWeatherMonitoringAndReporting;
+namespace FTSWeatherMonitoringAndReporting.Features.WeatherStation.Models;
 
 [XmlRoot("WeatherData")]
 public class Weather
 {
-    public string Location { get; set; }
-    public int Temperature { get; set; }
-    public int Humidity { get; set; }
+    public string Location { get; set; } = string.Empty;
+    public decimal Temperature { get; set; }
+    public decimal Humidity { get; set; }
 
     public override string ToString()
     {

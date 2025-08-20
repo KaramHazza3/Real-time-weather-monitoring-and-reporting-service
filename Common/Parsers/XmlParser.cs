@@ -1,27 +1,34 @@
 ﻿using System.Xml;
 using System.Xml.Serialization;
+using FTSWeatherMonitoringAndReporting.Common.Parsers.Exceptions;
 
-namespace FTSWeatherMonitoringAndReporting;
+namespace FTSWeatherMonitoringAndReporting.Common.Parsers;
 
-public class XmlParser : IInputParser<Weather>
+public class XmlParser<T> : IParser<T> where T : class
 {
-    public Weather Parse(string input)
+    public T Parse(string input)
     {
         try
         {
-            var xmlSerializer = new XmlSerializer(typeof(Weather));
+            var xmlSerializer = new XmlSerializer(typeof(T));
             using var reader = new StringReader(input);
-     
+
             var result = xmlSerializer.Deserialize(reader);
             if (result == null)
             {
                 throw new ParsingException("XML", new NullReferenceException("Deserialized result was null"));
             }
-            return (Weather)result;
+
+            return (T)result;
         }
         catch (XmlException e)
         {
             throw new ParsingException("XML", e);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Something went wrong!");
+            throw new Exception(e.Message);
         }
     }
 }

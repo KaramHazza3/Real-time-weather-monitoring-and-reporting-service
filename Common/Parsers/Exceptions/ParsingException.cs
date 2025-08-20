@@ -1,4 +1,4 @@
-﻿namespace FTSWeatherMonitoringAndReporting;
+﻿namespace FTSWeatherMonitoringAndReporting.Common.Parsers.Exceptions;
 
 public class ParsingException : Exception
 {
