@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FTSWeatherMonitoringAndReporting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34a82f3235c7199787e73a7599db6820c56f1a30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+230be75a4a42cfc6afd60d8f25bbef44c82fcad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FTSWeatherMonitoringAndReporting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FTSWeatherMonitoringAndReporting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
